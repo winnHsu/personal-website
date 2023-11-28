@@ -1,5 +1,12 @@
 .App {
+  height: 4000px;
   text-align: center;
+  font-family: 'Arimo', sans-serif;
+  background-image: url('./assets/designs/background_home.png');
+  background-size: contain;
+  background-position: top;
+  padding-top: 60px;
+  position: relative;
 }
 
 .App-logo {
@@ -32,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
