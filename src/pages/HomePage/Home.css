@@ -1,18 +1,19 @@
 .mainView {
     display: flex;
     flex-direction: row;
-    height: 91.4vh;
-    margin-bottom: 96px;
-    padding-bottom: 7vh;
+    height: 98vh;
+    padding-bottom: 18vh;
+    /* background-color: aquamarine; */
 }
 
 .titleLeft {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-end;
+    align-self: flex-end;
     width: 50%;
-    margin-left: 2%;
+    margin-left: 2.2vw;
+    /* background-color: aqua; */
 }
 
 .textCreative {
@@ -27,7 +28,7 @@
 .textImage {
     width: auto;
     height: 29.7vh;
-    margin-bottom: 0.4vh;
+    margin-bottom: 0.5vh;
 }
 
 .contentRight {

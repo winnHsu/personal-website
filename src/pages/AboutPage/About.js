@@ -23,7 +23,7 @@ export default function About() {
                 <img src={text_hello} alt="Description" className="textHello" />
                 <p className='textName'>Winn Hsu</p>
                 <p className='textAbout'>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I USE MY SKILLS AND PASSION TO BUILD INNOVATIVE DIGITAL SOLUTIONS. ENRICHED BY NYU EDUCATION, MY JOURNEY HAS HONED MY SKILLS IN FULL-STACK WEB AND MOBILE APP DEVELOPMENT AND DESIGN. MY EXPERIENCE SPANS WORKING WITH STARTUPS, BIG CORPORATIONS, AND INDIVIDUALS, CREATING BLUEPRINTS FOR DIGITAL BUSINESSES, IMPROVING EFFICIENCY, AND LEARNING NEW THINGS!
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I USE MY SKILLS AND PASSION TO BUILD INNOVATIVE DIGITAL SOLUTIONS. ENRICHED BY NYU EDUCATION, MY JOURNEY HAS HONED MY SKILLS IN FULL-STACK WEB AND MOBILE APP DEVELOPMENT AND DESIGN. MY EXPERIENCE SPANS WORKING WITH STARTUPS, BIG CORPORATIONS, AND INDIVIDUALS, CREATING BLUEPRINTS FOR DIGITAL BUSINESSES, IMPROVING EFFICIENCY, AND LEARNING NEW THINGS!
                 </p>
                 <p className='textAbout'>
                     - SECOND-YEAR GRAD STUDENT AT NYU.<br />- FIGMA LOVER CRAFTING PIXEL-PERFECT DESIGN.<br />- FULL-STACK SOFTWARE DEVELOPER SPECIALIZING IN REACT FRAMEWORK.

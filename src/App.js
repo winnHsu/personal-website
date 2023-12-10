@@ -4,7 +4,7 @@ import Home from './pages/HomePage/Home';
 import Header from './components/Header/Header';
 import ProgressBar from './components/widgets/ProgressBar';
 import BackgroundOverlay from './components/widgets/BackgroundOverlay';
-import background_home from './assets/designs/background_home.png';
+import background_home from './assets/backgrounds/background_home.png';
 
 function App() {
   const [backgroundFixed, setBackgroundFixed] = useState(false);
@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const appStyle = {
-    height: '4000px',
+    height: '560vh',
     textAlign: 'center',
     fontFamily: "'Arimo', sans-serif",
     backgroundImage: `url(${background_home})`,
@@ -38,7 +38,6 @@ function App() {
         <ProgressBar />
         <Home />
       </BackgroundOverlay>
-      {/* <Footer /> */}
     </div>
   );
 }

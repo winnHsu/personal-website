@@ -1,0 +1,84 @@
+.workPage {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    padding-left: 8.3vw;
+    padding-right: 8.3vw;
+    /* background-color: aquamarine; */
+    height: 208.2vh;
+}
+
+.workTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.workTitleText {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1vw;
+}
+
+.workButtons {
+    display: flex;
+    width: 44vw;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4vh;
+    align-items: center;
+}
+
+.textKnowMore {
+    font-family: 'Abril Fatface';
+    text-decoration: none;
+    color: #EFDCC9;
+    font-size: 22.8px;
+    margin-right: 1vw;
+}
+
+.workSecondPart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13.5vh;
+}
+
+.textHonored {
+    height: 18vh;
+    width: min-content;
+    margin-bottom: 0.5vh;
+}
+
+.workTitleLeft {
+    display: flex;
+    flex-direction: column;
+    width: 41.7vw;
+}
+
+.textLove {
+    font-family: 'Abril Fatface';
+    text-decoration: none;
+    color: #EFDCC9;
+    font-size: 22.8px;
+    align-self: flex-start;
+    margin-top: 0vh;
+}
+
+.workTitleRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0.5vh;
+}
+
+.textAward {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 0.5vh;
+}

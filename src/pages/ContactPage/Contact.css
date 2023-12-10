@@ -1,0 +1,87 @@
+.contactPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 3vh;
+    padding-left: 2.2vw;
+    padding-right: 2.2vw;
+    height: 87.8vh;
+    /* background-color: aqua; */
+}
+
+.textConnect {
+    width: min-content;
+    height: 35vh;
+    margin-bottom: 0.5vh;
+}
+
+.firstPart {
+    display: flex;
+    flex-direction: row;
+    margin-top: -72px;
+}
+
+.secondPart {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    align-items: flex-end;
+}
+
+.textTalkAbout {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25.7px;
+    align-self: flex-start;
+    margin-top: 0vh;
+    margin-bottom: 3vh;
+}
+
+.topicBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2.5vh;
+}
+
+.contactBar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-bottom-color: #F4EEE7;
+}
+
+.contactBar p {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25.7px;
+    /* background-color: yellowgreen; */
+    margin-right: 2vw;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactInfoText {
+    text-decoration: none;
+    color: white;
+    font-size: 25.7px;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 3vw;
+}

@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
-import { Element, Link } from 'react-scroll';
+import React from 'react';
+import { Element } from 'react-scroll';
 import './Home.css'
 import text_designer from "../../assets/designs/text_designer.png"
 import text_developer from "../../assets/designs/text_developer.png"
-import icon_sun from "../../assets/icons/icon_sun.png"
 import About from '../AboutPage/About';
 import TickerButton from '../../components/buttons/TickerButton';
 import SpinningSun from '../../components/widgets/SpinningSun';
+import Work from '../WorkPage/Work';
+import ScrollingImage from '../../components/widgets/ScrollingImage';
+import text_skills from '../../assets/designs/text_skills.png'
+import Contact from '../ContactPage/Contact';
 
 export default function Home() {
     return (
@@ -25,7 +28,7 @@ export default function Home() {
                             <p className='textAvailable'>available for work</p>
                         </div>
                         <p className='textIntro'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HI, I AM WINN, A DEVELOPER AND UX/UI DESIGNER BASED IN NYC. I HAVE A STRONG BACKGROUND IN SOFTWARE ENGINEERING. I ENJOY RENAISSANCE ART AND MINIMAL DESIGN AESTHETICS. I LOVE TECHNOLOGY, NATURE, AND, OF COURSE, COLD PIZZA.</p>
-                        <TickerButton text={"CONTACT ME"} marginBottom={"-11vh"} width={"246px"} linkTo={"work"} />
+                        <TickerButton text={"CONTACT ME"} marginBottom={"-11vh"} width={"245px"} linkTo="contact" isNormal={true} />
                     </div>
                 </div>
             </Element>
@@ -33,10 +36,11 @@ export default function Home() {
                 <About />
             </Element>
             <Element name="work">
-                Work Section
+                <Work />
             </Element>
+            <ScrollingImage src={text_skills} />
             <Element name="contact">
-                Contact Section
+                <Contact/>
             </Element>
         </>
     )

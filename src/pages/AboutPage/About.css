@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 6vw;
+    padding-left: 8.3vw;
     padding-top: 1vh;
 }
 
@@ -12,6 +12,8 @@
     flex-direction: row;
     padding-top: 4vh;
     padding-bottom: 6vh;
+    /* background-color: aqua; */
+    height: 108vh;
 }
 
 .textHello {
@@ -47,7 +49,7 @@
 .designHead3d {
     width: 45vw;
     height: min-content;
-    margin-left: -0.1vw;
+    margin-left: -2.3vw;
     margin-bottom: 14vh;
     align-self: flex-end;
 }
