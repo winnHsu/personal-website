@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WorkCard = ({ text1, text2, textImage, workImage, isLeft }) => {
+const WorkCard = ({ text1, text2, textImage, workImage, isLeft, linkTo }) => {
     const workCardContainerStyle = {
         display: 'flex',
         flexDirection: isLeft ? 'row' : 'row-reverse',
@@ -20,7 +20,6 @@ const WorkCard = ({ text1, text2, textImage, workImage, isLeft }) => {
 
     const textMetromeshStyle = {
         height: '15vh',
-        cursor: 'pointer',
         width: 'min-content',
     };
 
@@ -39,9 +38,11 @@ const WorkCard = ({ text1, text2, textImage, workImage, isLeft }) => {
                 <p style={workDescriptionStyle}>{text1}<br />{text2}</p>
             </div>
             <div style={{ marginRight: '4vh' }} />
-            <img src={workImage} alt="Description" style={imageStyle}
-                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(0.987)'}
-                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'} />
+            <a href={linkTo} target="_blank" rel="noopener noreferrer">
+                <img src={workImage} alt="Description" style={imageStyle}
+                    onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(0.987)'}
+                    onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'} />
+            </a>
         </div>
     );
 };

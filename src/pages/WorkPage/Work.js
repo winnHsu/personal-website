@@ -31,7 +31,7 @@ export default function Work() {
                 <p className='workTitleText'>SELECTED WORKS</p>
             </div>
             <WorkCard text1={"FULLSTACK  WEBSITE/APP DEVELOPMENT"} text2="UX/UI DESIGN" textImage={text_metromesh} workImage={background_metromesh} isLeft={true} />
-            <WorkCard text1="FULLSTACK APP DEVELOPMENT" text2="UX DESIGN" textImage={text_chitchat} workImage={background_chitchat} isLeft={false} />
+            <WorkCard text1="FULLSTACK APP DEVELOPMENT" text2="UX DESIGN" textImage={text_chitchat} workImage={background_chitchat} isLeft={false} linkTo={"https://www.canva.com/design/DAF269r4kAg/bIKL-f8EHZr2IP7OVP_fQg/edit?utm_content=DAF269r4kAg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"} />
             <WorkCard text1="APP DEVELOPMENT" text2="UI DESIGN" textImage={text_carpass} workImage={background_carpass} isLeft={true} />
             <div className='workSecondPart'>
                 <div className='workTitleLeft'>
@@ -43,9 +43,9 @@ export default function Work() {
                 <div className='workTitleRight'>
                     <TickerButton text={"SEE MORE"} marginBottom={"17.5vh"} width={"223px"} linkTo="https://www.linkedin.com/in/winn-hsu/" isNormal={true} />
                     <div style={{ marginTop: '-60px' }}>
-                        <FlipCard text={'THE COMPUTER OLYMPIAD'} award={'BRONZE MEDAL'} image={text_olympiad} cover={award_co}/>
-                        <FlipCard text={'AI GAMING TOURNAMENT'} award={'GOLD MEDAL'} image={text_aigame} cover={award_aig}/>
-                        <FlipCard text={'COMPUTER GAME TOURNAMENT'} award={'SILVER MEDAL'} image={text_computergame} cover={award_cgt}/>
+                        <FlipCard text={'THE COMPUTER OLYMPIAD'} award={'BRONZE MEDAL'} image={text_olympiad} cover={award_co} />
+                        <FlipCard text={'AI GAMING TOURNAMENT'} award={'GOLD MEDAL'} image={text_aigame} cover={award_aig} />
+                        <FlipCard text={'COMPUTER GAME TOURNAMENT'} award={'SILVER MEDAL'} image={text_computergame} cover={award_cgt} />
                     </div>
                     <div className='workButtons'>
                         <p className='textKnowMore'>Know more<br />about me</p>
