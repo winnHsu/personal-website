@@ -21,24 +21,48 @@ import FlipCard from '../../components/cards/FlipCard'
 import award_co from '../../assets/designs/award_co.png'
 import award_aig from '../../assets/designs/award_aig.png'
 import award_cgt from '../../assets/designs/award_cgt.png'
+import companyIntro from '../../constants/companyIntro.json'
 
 
 export default function Work() {
+    console.log(companyIntro);
+
     return (
         <div className='workPage'>
             <div className='workTitle'>
                 <SpinningSun />
                 <p className='workTitleText'>SELECTED WORKS</p>
             </div>
-            <WorkCard text1={"FULLSTACK  WEBSITE/APP DEVELOPMENT"} text2="UX/UI DESIGN" textImage={text_metromesh} workImage={background_metromesh} isLeft={true} />
-            <WorkCard text1="FULLSTACK APP DEVELOPMENT" text2="UX DESIGN" textImage={text_chitchat} workImage={background_chitchat} isLeft={false} linkTo={"https://www.canva.com/design/DAF269r4kAg/bIKL-f8EHZr2IP7OVP_fQg/edit?utm_content=DAF269r4kAg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"} />
-            <WorkCard text1="APP DEVELOPMENT" text2="UI DESIGN" textImage={text_carpass} workImage={background_carpass} isLeft={true} />
+            <WorkCard
+                text1={companyIntro.metromesh.line1}
+                text2={companyIntro.metromesh.line2}
+                textImage={text_metromesh}
+                workImage={background_metromesh}
+                isLeft={true}
+                linkTo={companyIntro.metromesh.linkTo}
+                text={companyIntro.metromesh.text} />
+            <WorkCard
+                text1={companyIntro.chitchat.line1}
+                text2={companyIntro.chitchat.line2}
+                textImage={text_chitchat}
+                workImage={background_chitchat}
+                isLeft={false}
+                linkTo={companyIntro.chitchat.linkTo}
+                text={companyIntro.chitchat.text} />
+            <WorkCard
+                text1={companyIntro.carpass.line1}
+                text2={companyIntro.carpass.line2}
+                textImage={text_carpass}
+                workImage={background_carpass}
+                isLeft={true}
+                linkTo={companyIntro.carpass.linkTo}
+                text={companyIntro.carpass.text} />
             <div className='workSecondPart'>
                 <div className='workTitleLeft'>
                     <img src={text_honored} alt="Description" className="textHonored" />
                     <img src={text_learn} alt="Description" className="textHonored" />
                     <img src={text_professionals} alt="Description" className="textHonored" />
-                    <p className='textLove'>& I love competition</p>
+                    <p className='textLove'>& I enjoy competition</p>
                 </div>
                 <div className='workTitleRight'>
                     <TickerButton text={"SEE MORE"} marginBottom={"17.5vh"} width={"223px"} linkTo="https://www.linkedin.com/in/winn-hsu/" isNormal={true} />

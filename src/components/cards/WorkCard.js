@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import IntroCard from './IntroCard';
 
-const WorkCard = ({ text1, text2, textImage, workImage, isLeft, linkTo }) => {
+const WorkCard = ({ text1, text2, textImage, workImage, isLeft, linkTo, text }) => {
+    const [drop, setDrop] = useState(false);
+
+    const handleClick = () => {
+        setDrop(!drop);
+    };
+
     const workCardContainerStyle = {
         display: 'flex',
         flexDirection: isLeft ? 'row' : 'row-reverse',
@@ -31,8 +38,22 @@ const WorkCard = ({ text1, text2, textImage, workImage, isLeft, linkTo }) => {
         marginBottom: '0vh',
     };
 
+    const introCardContainerStyle = {
+        position: 'fixed', /* Stay in place */
+        zIndex: 1, /* Sit on top */
+        left: 0,
+        top: 0,
+        width: '100%', /* Full width */
+        height: '100%', /* Full height */
+        overflow: 'auto', /* Enable scroll if needed */
+        backgroundColor: '#000000E1',
+        justifyContent: 'center',
+        display: 'flex',
+        alignItems: 'center'
+    }
+
     return (
-        <div style={workCardContainerStyle}>
+        <div style={workCardContainerStyle} onClick={handleClick}>
             <div>
                 <img src={textImage} alt="Description" style={textMetromeshStyle} />
                 <p style={workDescriptionStyle}>{text1}<br />{text2}</p>
@@ -43,6 +64,7 @@ const WorkCard = ({ text1, text2, textImage, workImage, isLeft, linkTo }) => {
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(0.987)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'} />
             </a>
+            <IntroCard style={introCardContainerStyle} drop={drop} text={text} />
         </div>
     );
 };

@@ -1,0 +1,20 @@
+{
+  "metromesh": {
+    "line1": "FULLSTACK  WEBSITE/APP DEVELOPMENT",
+    "line2": "UX/UI DESIGN",
+    "text": "As a Full Stack Developer at MetroMesh, I led the end-to-end development, from front-end to back-end systems, enhancing our advertising solutions. I utilized React and Redux to create dynamic, responsive user interfaces, and managed the backend with Node.js and GraphQL, optimizing real-time data processes for targeted ads. I also designed RESTful APIs to streamline service integration and used AWS for deployment, improving system reliability across regions. Additionally, I employed Figma for UI/UX design, ensuring our platforms were both visually appealing and functionally effective, aligning with MetroMesh's commitment to high-quality, engaging advertising experiences. This role demanded a comprehensive skill set in development, cloud solutions, and design, all of which I successfully navigated to advance our business objectives.",
+    "linkTo": null
+  },
+  "chitchat": {
+    "line1": "FULLSTACK APP DEVELOPMENT",
+    "line2": "UX/UI DESIGN",
+    "text": "During my internship at Chitchat Social in Boston from January to April 2024, I had the opportunity to contribute to several key projects that enhanced the company's technology infrastructure and improved user experiences. My role involved assisting in the migration of our databases from Google Firebase to AWS Amplify, which resulted in significant cost savings in data usage. I also developed a secure authentication flow using AWS Amplify Auth and Amazon Cognito, which streamlined the process for user registration and login. Additionally, I was involved in implementing a real-time messaging system that allowed for instant chat updates, a critical feature for modern communication apps. My experience extended to optimizing our project management tools, specifically Jira, where I improved the tracking of our development process through better sprint and backlog management. This internship not only honed my technical skills but also deepened my understanding of agile software development and cloud-based technologies.",
+    "linkTo": "https://www.canva.com/design/DAF269r4kAg/bIKL-f8EHZr2IP7OVP_fQg/edit?utm_content=DAF269r4kAg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+  },
+  "carpass": {
+    "line1": "APP DEVELOPMENT",
+    "line2": "UX/UI DESIGN",
+    "text": "During my tenure as a Software Engineer Intern at Carpass.io in San Francisco from May to November 2023, I focused on full-stack development. I developed and implemented RESTful API endpoints using Django REST Framework to facilitate data retrieval for a front-end dashboard. I significantly enhanced API security through token-based authentication and authorization, complemented by thorough unit testing to confirm API robustness and functionality. For the front end, I utilized Figma for UI/UX design prototyping, aligning visuals and functionalities with project requirements. Additionally, I built a responsive and user-friendly front end using Angular, optimized for efficient interaction with the APIs.",
+    "linkTo": null
+  }
+}
